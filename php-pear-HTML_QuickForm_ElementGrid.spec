@@ -62,3 +62,31 @@ fi
 %doc %{upstream_name}-%{version}/examples
 %{_datadir}/pear/%{_class}
 %{_datadir}/pear/packages/%{upstream_name}.xml
+
+
+%changelog
+* Fri Dec 16 2011 Oden Eriksson <oeriksson@mandriva.com> 0.1.1-5mdv2012.0
++ Revision: 741998
+- fix major breakage by careless packager
+
+* Fri May 27 2011 Oden Eriksson <oeriksson@mandriva.com> 0.1.1-4
++ Revision: 679349
+- mass rebuild
+
+* Tue Dec 07 2010 Oden Eriksson <oeriksson@mandriva.com> 0.1.1-3mdv2011.0
++ Revision: 613675
+- the mass rebuild of 2010.1 packages
+
+* Sat Dec 12 2009 Guillaume Rousse <guillomovitch@mandriva.org> 0.1.1-2mdv2010.1
++ Revision: 477879
+- spec cleanup
+- use pear installer
+- don't ship tests, even in documentation
+- own all directories
+- use rpm filetriggers starting from mandriva 2010.1
+
+* Thu Oct 01 2009 Guillaume Rousse <guillomovitch@mandriva.org> 0.1.1-1mdv2010.0
++ Revision: 452031
+- import php-pear-HTML_QuickForm_ElementGrid
+
+
