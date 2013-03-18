@@ -3,13 +3,13 @@
 %define		upstream_name	%{_class}_%{_subclass}
 
 Name:		php-pear-%{upstream_name}
-Version:	0.1.1
-Release:	6
+Version:	0.1.2
+Release:	1
 Summary:    An HTML_QuickForm meta-element which holds any other element in a grid
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/%{upstream_name}
-Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tgz
+Source0:	http://download.pear.php.net/package/HTML_QuickForm_ElementGrid-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
@@ -73,5 +73,6 @@ install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 * Thu Oct 01 2009 Guillaume Rousse <guillomovitch@mandriva.org> 0.1.1-1mdv2010.0
 + Revision: 452031
 - import php-pear-HTML_QuickForm_ElementGrid
+
 
 
