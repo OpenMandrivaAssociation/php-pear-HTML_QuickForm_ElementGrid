@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.1.2
-Release:	1
+Release:	2
 Summary:    An HTML_QuickForm meta-element which holds any other element in a grid
 License:	PHP License
 Group:		Development/PHP
