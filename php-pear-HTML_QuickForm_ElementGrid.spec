@@ -8,7 +8,7 @@ Release:	2
 Summary:    An HTML_QuickForm meta-element which holds any other element in a grid
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/%{upstream_name}
+URL:		https://pear.php.net/package/%{upstream_name}
 Source0:	http://download.pear.php.net/package/HTML_QuickForm_ElementGrid-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
